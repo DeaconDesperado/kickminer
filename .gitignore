@@ -1,0 +1,7 @@
+*.pyc
+env
+.ipynb_checkpoints
+scrapy
+scrapyc
+.vagrant
+.DS_Store

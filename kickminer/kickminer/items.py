@@ -18,5 +18,6 @@ class Project(Item):
     start_date = Field()
     end_date = Field()
     num_updates = Field()
+    num_shares = Field()
     len_faq = Field()
     

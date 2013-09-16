@@ -41,5 +41,6 @@ class KMSpider(CrawlSpider):
         proj['end_date'] = end_date
         proj['num_updates'] = int(hxs.select('//a[@id="updates_nav"]/span/text()').extract()[0].strip())
         proj['len_faq'] = len(hxs.select('//ul[@class="faqs"]/li'))
+
         return proj
 
