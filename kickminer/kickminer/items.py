@@ -6,6 +6,7 @@
 from scrapy.item import Item, Field
 
 class Project(Item):
+    crawled = Field()
     name = Field()
     place = Field()
     backers = Field()
@@ -20,4 +21,13 @@ class Project(Item):
     num_updates = Field()
     num_shares = Field()
     len_faq = Field()
+    num_rewards = Field()
+    reward_costs = Field()
+    reward_costs_diff = Field()
+    has_video = Field()
+    num_images = Field()
+    days_old = Field()
+    backers_per_day = Field()
+    finished = Field()
+    
     
